@@ -64,8 +64,6 @@ public class Emprestimo {
     public void addYearsToPayment(Integer moreYears){
         this.yearsLoan=this.yearsLoan + moreYears;
     }
-    
-   
-    
+    //Ligia
     
 }
