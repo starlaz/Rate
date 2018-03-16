@@ -61,7 +61,7 @@ public class Emprestimo {
         return remainsAfter/months;
     }
     // add years to the loan
-    public void addYearsToPayment(Integer moreYears){
+    public void addYearsToPayment(Integer moreYears){ // Comentário - Ricardo
         this.yearsLoan=this.yearsLoan + moreYears;
     }
     
