@@ -6,6 +6,7 @@
 package rate;
 //Teste Git
 //Teste 2
+//Teste3
 /**
  *
  * @author lpiedade
