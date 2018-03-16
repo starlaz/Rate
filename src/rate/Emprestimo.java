@@ -46,12 +46,12 @@ public class Emprestimo {
         this.entryValue = entryValue;
     }
     
-    
+    // helper metoth to calculate months 
     private Integer howManyMonths(){
 
         return this.yearsLoan * 12;
     }
-    
+    //Calculation the Payment that we need to perform every month
     public Integer monthlyPayment(){
         Integer months=this.howManyMonths();
         Integer remain= this.paymentLoan - this.entryValue;
@@ -60,7 +60,10 @@ public class Emprestimo {
         
         return remainsAfter/months;
     }
-    
+    // add years to the loan
+    public void addYearsToPayment(Integer moreYears){
+        this.yearsLoan=this.yearsLoan + moreYears;
+    }
     
    
     
